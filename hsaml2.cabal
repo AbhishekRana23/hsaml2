@@ -72,7 +72,7 @@ library
     base >=4.8 && <5,
     base64-bytestring,
     bytestring,
-    cryptonite,
+    crypton,
     data-default,
     http-types,
     hxt,
@@ -89,7 +89,7 @@ library
     template-haskell,
     time,
     utf8-string,
-    x509,
+    crypton-x509,
     zlib
   pkgconfig-depends: libxml-2.0
   default-language:    Haskell2010
@@ -112,7 +112,7 @@ test-suite tests
     base,
     base64-bytestring,
     bytestring,
-    cryptonite,
+    crypton,
     hsaml2,
     hxt,
     hxt-http,
@@ -120,5 +120,5 @@ test-suite tests
     semigroups,
     string-conversions,
     time,
-    x509,
+    crypton-x509,
     HUnit
